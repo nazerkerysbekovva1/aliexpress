@@ -1,0 +1,17 @@
+.login-content{    
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 32px;
+    width: 400px;
+    border: solid 2px #222;
+}
+.login-content h1{
+    margin-bottom:  16px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #222;
+}

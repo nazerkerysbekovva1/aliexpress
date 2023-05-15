@@ -1,0 +1,10 @@
+.text-danger {
+    color: #ff0000;
+    display: inline;
+}
+.picked-link{
+    border: solid 2px #222;
+    border-radius: 20px;
+    width: 85%;
+    align-items: center;
+}

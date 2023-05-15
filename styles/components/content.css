@@ -1,0 +1,123 @@
+.content{
+    display: flex;
+    padding: 12px 32px;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #fff;
+    margin: 0 119px 40px;
+}
+.categories{
+    width: 26%;
+    display: flex;
+    justify-content: flex-start;
+}
+.categories ul {
+    padding-bottom: 8px;    
+    list-style: none;
+    position: relative;
+}
+.categories ul li{
+    padding: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.02em;
+    font-weight: 400;
+}
+.picked-link{
+    border:  rgba(34,34,34,.12) ;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 85%;
+}
+.categories ul li>a{
+    text-decoration: none;
+    color: #222;
+}
+.categories ul li:hover{
+    background-color: rgba(34,34,34,.12);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 85%;
+}
+.catg{
+    font-weight: 700 !important;
+}
+.catg:hover{
+    background-color: #fff !important;
+}
+.catg i{
+    width: 14px;
+    cursor: pointer;
+}
+.content-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cnt-item{
+    width: 24%;
+    height: auto;
+    /* position: relative; */
+    margin-bottom: 25px;
+}
+.cnt-img{
+    display: block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 24px;
+    /* background-image: url("../../images/products/cnt1.webp"); */
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.cnt-item p{
+    font-size: 14px;
+    color: #222;
+    height: 40px;
+    margin-top: 3px;
+}
+.cnt-item h3{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.rating{
+    height: 20px;
+    display: flex;
+    margin-top: 5px;
+    gap: 7px;
+}
+.rating i{
+    color: #cc290a;
+    font-size: 14px;
+}
+.saled{
+    font-size: 14px;
+    color: #222;
+}
+.show-more{
+    margin: 32px 0 16px;
+    width: 100%;
+    border-radius: 28px;
+    font-size: 20px;
+    height: 56px;
+    letter-spacing: -.4px;
+    line-height: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+    color: #222;
+    font-weight: 700;
+}
+@media(max-width: 1300px){
+    .content{
+        margin: 0;
+    }
+}

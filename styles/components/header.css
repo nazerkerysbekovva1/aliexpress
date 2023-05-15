@@ -1,0 +1,111 @@
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 12px 151px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* margin: 0 119px; */
+    z-index: 4;
+    width: auto;
+}
+.head-left{
+    width: 25%;
+    height: 48px;
+    box-sizing: content-box;
+}
+.head-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74%;
+}
+.head-middle{
+    padding: 0 12px;
+    border: 2px solid #000;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-middle>i{
+    color: rgba(34,34,34,.64);;
+}
+.head-middle>input{
+    width: 100%;
+    border: none;
+    margin-left: 9px;
+    color: rgba(34,34,34,.64);
+    font-size: 16px;
+    outline: none;
+}
+.head-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin-left: auto;
+}
+.head-right>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.head-right>div>a>i{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.head-right>div>a{
+    font-size: 14px;
+    letter-spacing: -.2px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 1300px){
+    header{
+        padding: 12px 32px;
+    }
+}
+@media(max-width: 1045px){
+    .head-right{
+        width: 30%;
+    }
+}
+@media(max-width: 770px){
+    .head-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        box-sizing: content-box;
+    }
+    .head-middle{
+        width: 100%;
+        height: 56px;
+        border: 2px solid #cc290a;
+    }
+    .head-right{
+        display: none;
+    }
+}
+.avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: solid 2px #000;
+}

@@ -1,0 +1,131 @@
+.modal-window{
+    background: rgba(34,34,34,.8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1040;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 32px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);    
+    position: fixed;
+}
+.xmark{
+    margin: 0 0 16px;
+    position: relative;
+}
+.xmark i{
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    cursor: pointer;
+    color: #222;
+}
+.modal-content h1{
+    margin-bottom:  16px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #222;
+}
+.login-input{
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid rgba(34,34,34,.24);
+    box-sizing: border-box;
+    color: #222;
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 28px;
+    height: 58px;
+}
+.login-input input{
+    font-size: 16px;
+    letter-spacing: -.3px;
+    line-height: 24px;
+    outline: none;
+    padding: 6px 0;
+    margin: 0 18px;
+    border: none;
+    width: 100%;
+}
+.login-input:hover{
+    border: 2px solid rgba(34,34,34,.64);
+}
+.next{
+    margin-top: 12px;
+    background-color: #cc290a;
+    color: #fff;
+    border-radius: 28px;
+    font-size: 20px;
+    height: 56px;
+    letter-spacing: -.4px;
+    line-height: 24px;
+    padding: 0 20px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.new-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    font-size: 20px;
+    height: 56px;
+    letter-spacing: -.4px;
+    line-height: 24px;
+    padding: 0 20px;
+    /* width: 100%; */
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #e4e4e4;
+    color: #222;
+    text-decoration: none;
+}
+.new-account:hover{
+    background-color: #cacaca;
+}
+.linia{
+    background: #ddd;
+    height: 1px;
+    margin:12px 0 32px;
+    width: 100%;
+}
+.help{
+    margin: 16px auto 24px;
+    font-size: 14px;
+    letter-spacing: -.3px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.21em;
+    cursor: pointer;
+    color: #222;
+}
+.modal-content>span{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -.2px;
+    line-height: 16px;
+    color: rgba(34,34,34,.64);
+}
+.modal-content> span>a{
+    text-decoration: underline;
+}
